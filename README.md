@@ -8,3 +8,5 @@
 - Created animation when hovering (doesn't do anything)
 - Navbar are based on the games categories. Thus, Table, & Live are empty.
 - Jackpots menu shows all games with jackpots.
+
+- Run `npm test` for the unit tests
