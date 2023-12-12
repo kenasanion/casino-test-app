@@ -84,6 +84,9 @@ class GameFeedPage extends Component<GameFeedProps, GameFeedState> {
     }
 
     const filteredGames = games.filter((game) => {
+      if (selectedCategory === 'jackpot') {
+        return this.state.jackpots.some(jackpot => jackpot.game === game.id)
+      }
       if (selectedCategory !== 'other') {
         return game.categories.includes(selectedCategory);
       } else {

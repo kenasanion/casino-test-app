@@ -20,7 +20,7 @@ const GameCard: React.FC<{ game: GameModel, jackpot: number | undefined, current
         <div className="game-card" style={{ backgroundImage: `url(${game.image})` }} >
             {
                 showRibbon &&
-                (<div className="game-card-ribbon">
+                (<div data-testid="game-card-ribbon" className="game-card-ribbon">
                     {featuredTag}
                 </div>)
             }

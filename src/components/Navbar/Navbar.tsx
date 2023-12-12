@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import NavbarItem from '../../models/NavbarItem';
 import './Navbar.css';
-
-interface NavbarProps {
-    handleItemClick: (item: NavbarItem) => void;
-    navbarItems: NavbarItem[];
-    selectedItem: NavbarItem | null;
-}
+import NavbarProps from '../../models/NavbarProps';
 
 /**
  * Represents the navbar component.
