@@ -1,5 +1,9 @@
 # Casino Test App
 
+## App Preview
+
+![Casino App Preview](demo/screenshot-preview.jpg)
+
 ## Notes
 
 - Jackpot prices refreshes every 10 seconds
