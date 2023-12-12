@@ -1,7 +1,5 @@
 # Casino Test App
 
-Deployed on: https://vercel.com/kenasanion/casino-test-app/35EcK34aK6CcSVPe2C538XRNu7yU
-
 ## Notes
 
 - Jackpot prices refreshes every 10 seconds
