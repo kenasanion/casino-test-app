@@ -1,5 +1,8 @@
 # Casino Test App
 
+- Run `npm start` to run the project.
+- I like to host it in Vercel but it's not setup for CORS due to time
+
 ## App Preview
 
 ![Casino App Preview](demo/screenshot-preview.jpg)
