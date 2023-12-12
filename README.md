@@ -6,4 +6,5 @@
 - Ribbon design is just CSS
 - Using plain CSS and simple react project (using a framework might be overkill)
 - Created animation when hovering (doesn't do anything)
-- Navbar are based on the games categories. Thus, Table, Live, and Jackpots are empty.
+- Navbar are based on the games categories. Thus, Table, & Live are empty.
+- Jackpots menu shows all games with jackpots.
