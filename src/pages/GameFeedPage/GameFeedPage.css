@@ -1,0 +1,22 @@
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 50px 80px;
+}
+
+.status-message {
+    margin-top: 100px;
+}
+
+@media (max-width: 1280px) {
+    .game-list  {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .game-list  {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
