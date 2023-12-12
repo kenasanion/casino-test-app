@@ -54,6 +54,20 @@
     margin-bottom: 20px;
 }
 
+.jackpot {
+    color: white;
+    background: #a01717;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 700;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
 .game-card:hover .game-card-overlay {
     opacity: 1;
 }

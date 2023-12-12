@@ -6,7 +6,7 @@ import './GameCard.css'
  * @param param0 the game properties
  * @returns
  */
-const GameCard: React.FC<{ game: GameModel, currentCategory: string }> = ({ game, currentCategory }) => {
+const GameCard: React.FC<{ game: GameModel, jackpot: number | undefined, currentCategory: string }> = ({ game, jackpot, currentCategory }) => {
     const featuredIndex = game.categories.findIndex(c => c.toLowerCase() === "top" || c.toLowerCase() === 'new');
     let showRibbon = false;
     let featuredTag = '';
@@ -23,6 +23,13 @@ const GameCard: React.FC<{ game: GameModel, currentCategory: string }> = ({ game
                 (<div className="game-card-ribbon">
                     {featuredTag}
                 </div>)
+            }
+            {
+                jackpot && jackpot > 0 && (
+                    (<div className="jackpot">
+                        JACKPOT PRICE £ {jackpot.toLocaleString()}
+                    </div>)
+                )
             }
             <div className="game-card-overlay">
                 <div className="game-card-title">{ game.name }</div>

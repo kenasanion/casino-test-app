@@ -5,6 +5,13 @@
     padding: 50px 80px;
 }
 
+.jackpot-feed {
+    color: white;
+    font-weight: 700;
+    background-color: #a01717;
+    padding: 20px;
+}
+
 .status-message {
     margin-top: 100px;
 }
